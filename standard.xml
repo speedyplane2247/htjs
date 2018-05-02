@@ -1,15 +1,15 @@
 <!DOCTYPE htjs>
-<htjs version="v1.0">
+<htjs version="v1.0-patch1">
 <dec type="license">
 https://www.gnu.org/licenses/gpl-3.0.en.html
 </dec>
 <dec type="notes">
 You can either put the full license, or the link to the license in the LICENSE button.
 This is all HTML5, so you don't have to put the DOCTYPE tag either. 
-</dec>
+</dec type="notes">
 <dec type="html">
 <button onclick="test()">alert</button>
-</dec>
+</dec type="html">
 <dec type="js">
 function test() {
 alert("test 123")
@@ -27,7 +27,7 @@ div {
 p {
     background-color: yellow;
 }
-</dec>
+</dec type="css">
 <dec type="notes">
 They also can be in any order. Right now v1 is limitied to the following standards:
 
@@ -36,5 +36,8 @@ CSS3 : "css"
 ECMAScript 2017 : "js"
 
 What's in store for the future? We are planning on having HTJS-based Iframes, and JSON files. We don't really have this ready, but this a pretty good list of standards for use. Thanks!
-</dec>
+    
+---
+    What's new in patch1? A minor update to the XML sheet allows more efficent processing of tags.
+</dec type="notes">
 </htjs>
